@@ -6,14 +6,15 @@ public class exercici5 {
     int num;
     int multi = 0;
     int contador = 2;
-        
+    
+    System.out.println("Hola bon dia, soc en Dídac Gros")
     Scanner teclat = new Scanner (System.in);
     System.out.println("introdueixi caracter");
     caracter = teclat.nextInt();
        
     
     while( contador<=10){
-
+        
         System.out.println("el caracter es " + caracter);
         System.out.println("introdueixi caracter");
         caracter = teclat.next().charAt(0);
