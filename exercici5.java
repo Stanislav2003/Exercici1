@@ -3,17 +3,16 @@ public class exercici5 {
     public static void main(String[] args) {
 
     char caracter;
-    int num;
     int multi = 0;
     int contador = 2;
         
     Scanner teclat = new Scanner (System.in);
     System.out.println("introdueixi caracter");
-    caracter = teclat.nextInt();
+    caracter = teclat.next().charAt(0);
        
     
     while( contador<=10){
-
+        System.out.println("bondia");
         System.out.println("el caracter es " + caracter);
         System.out.println("introdueixi caracter");
         caracter = teclat.next().charAt(0);
