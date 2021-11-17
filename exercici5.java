@@ -12,7 +12,7 @@ public class exercici5 {
        
     
     while( contador<=10){
-        System.out.println("bondggrggria");
+        System.out.println("Hola bondia");
         System.out.println("el caracter es " + caracter);
         System.out.println("introdueixi caracter");
         caracter = teclat.next().charAt(0);
